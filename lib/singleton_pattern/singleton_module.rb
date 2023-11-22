@@ -9,6 +9,7 @@ class SingletonModule
   attr_accessor :name
 end
 
+byebug
 sdb_users = SingletonModule.instance
 sdb_users.name = ('users')
 puts sdb_users.name
