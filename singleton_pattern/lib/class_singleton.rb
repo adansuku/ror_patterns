@@ -1,5 +1,6 @@
 # frozen_string_literal: true
 
+# ClassSingleton example
 class ClassSingleton
   class << self
     attr_writer :name

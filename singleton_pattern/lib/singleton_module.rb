@@ -1,5 +1,8 @@
+# frozen_string_literal: true
+
 require 'singleton'
 
+# SingletonModule example
 class SingletonModule
   include Singleton
 

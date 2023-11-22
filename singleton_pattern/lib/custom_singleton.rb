@@ -1,3 +1,6 @@
+# frozen_string_literal: true
+
+# CustomSingleton class example
 class CustomSingleton
   attr_reader :name
 
